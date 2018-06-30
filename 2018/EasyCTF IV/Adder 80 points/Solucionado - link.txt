@@ -1,0 +1,4 @@
+https://ctftime.org/task/5349
+
+Cualquier numero que de como suma 1337
+por ejemplo 0 0 1337
