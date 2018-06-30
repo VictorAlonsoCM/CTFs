@@ -1,0 +1,4 @@
+flag= easyctf{eb04fadf}
+
+Solucion: Abrilo con HxD Editor Hexadecimal
+	  Buscar el formato de la bandera
