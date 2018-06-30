@@ -1,0 +1,6 @@
+40369e8c78b46122a4e813228ae8ee6e
+hashcat -a 3 -m 0 -n 1 --custom-charset1=?l?s?d?u -i /root/Desktop/CTF/hashcat-4.1.0/hash_test/hash.txt ?l?l?l?l?l?l?l?l -o /root/Desktop/CTF/hashcat-4.1.0/hash_test/hash_cracked.txt --force
+
+hashcat -a 3 -m 0 -n 1 --custom-charset1=?l?s?d?u -i /root/Desktop/CTF/hashcat-4.1.0/hash_test/hash.txt ?l?s?d?l?l?l?l?l?l?l?l?l -o /root/Desktop/CTF/hashcat-4.1.0/hash_test/hash_cracked.txt --force
+
+hashcat -a 3 -m 0 -n 1  -i --potfile-disable /root/Desktop/CTF/hashcat-4.1.0/hash_test/hash.txt ?a?a?a?a?a -o /root/Desktop/CTF/hashcat-4.1.0/hash_test/hash_cracked.txt --force
