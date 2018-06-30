@@ -1,0 +1,18 @@
+ v5 = sumChars(email, 0, 32, l + 2);
+    arreglo_serial[l] -= (signed int)((unsigned __int64)sumChars(email, l + 1, 32, l + 2) * v5) % 10000;
+    v6 = sumChars(name, 0, 32, 2);
+    arreglo_serial[l] += 4 * (v6 - (unsigned __int64)sumChars(name, 1, 32, 2));
+
+5f65d453851E
+Artemis Tosini
+artemis.tosini@example.com
+ABCD-EFGH-IIJK-LMNO-PQRS-TUVW
+TUVW-PQRS-LMNO-IIJK-EFGH-ABCD
+FFFFF020
+
+07F8-1780-0B94-01F8-0B4B-11F8
+11F8 57D 6B9 FFFFEF9D FFFFFC01 B49
+
+7F81-780B-941F-8B4B-11F8-TUVW
+3FC5-E01E-E521-19D3-98
+7F8
